@@ -2,7 +2,7 @@ const routes = [
   {
     path: '/login',
     name: 'login',
-    component: () => import('../views/LoginPage.vue'),
+    component: () => import('../views/Loginpage.vue'),
     meta: { requiresAuth: false }
   },
   {
@@ -18,25 +18,25 @@ const routes = [
   {
     path: '/brazo',
     name: 'brazo',
-    component: () => import('../views/ArmPage.vue'),
+    component: () => import('../views/Armpage.vue'),
     meta: { requiresAuth: true }
   },
   {
     path: '/pierna',
     name: 'pierna',
-    component: () => import('../views/LegPage.vue'),
+    component: () => import('../views/Legpage.vue'),
     meta: { requiresAuth: true }
   },
   {
     path: '/hombro',
     name: 'hombro',
-    component: () => import('../views/ShoulderPage.vue'),
+    component: () => import('../views/Shoulderpage.vue'),
     meta: { requiresAuth: true }
   },
   {
     path: '/:catchAll(.*)*',
     name: 'not-found',
-    component: () => import('../views/ErrorNotFound.vue')
+    component: () => import('../views/Errornotfound.vue')
   }
 ]
 
