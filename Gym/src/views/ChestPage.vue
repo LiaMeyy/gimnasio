@@ -18,7 +18,7 @@ const ejercicios = ref([
       'Baja la barra hasta rozar el pecho, sin rebotar',
       'Empuja en línea recta, sin abrir demasiado los codos'
     ],
-    video: ''
+    video: 'TAH8RxOS0VI'
   },
   {
     nombre: 'Press inclinado',
@@ -31,7 +31,7 @@ const ejercicios = ref([
       'Controla la bajada, no dejes caer las mancuernas',
       'Junta las mancuernas arriba sin chocarlas'
     ],
-    video: ''
+    video: 'vUMtItXfO8Y'
   },
   {
     nombre: 'Aperturas',
@@ -44,7 +44,7 @@ const ejercicios = ref([
       'Baja solo hasta sentir un estiramiento cómodo, sin forzar el hombro',
       'Piensa en "abrazar un árbol" al subir'
     ],
-    video: ''
+    video: 'R4GslAvpPE0&t=7s'
   },
   {
     nombre: 'Fondos en paralelas',
@@ -57,7 +57,7 @@ const ejercicios = ref([
       'Baja hasta que el hombro quede a la altura del codo, no más',
       'Evita bloquear los codos de golpe arriba'
     ],
-    video: ''
+    video: 'fJ5QdPGMkiY'
   },
   {
     nombre: 'Press en máquina',
@@ -70,7 +70,7 @@ const ejercicios = ref([
       'Usa un rango completo mientras la máquina te lo permita sin dolor',
       'Ideal para series finales al fallo con más seguridad'
     ],
-    video: ''
+    video: 'N7DjfGB8-xY'
   }
 ])
 </script>

@@ -18,7 +18,7 @@ const ejercicios = ref([
       'Las rodillas siguen la dirección de los pies, sin colapsar hacia adentro',
       'Baja hasta donde tu movilidad lo permita sin perder la técnica'
     ],
-    video: ''
+    video: 'qsAkuNORgmk'
   },
   {
     nombre: 'Prensa de piernas',
@@ -31,7 +31,7 @@ const ejercicios = ref([
       'Controla la bajada, no dejes que el peso te empuje',
       'Mantén la zona lumbar pegada al respaldo'
     ],
-    video: ''
+    video: 'xvCynwyNoP4'
   },
   {
     nombre: 'Peso muerto rumano',
@@ -44,7 +44,7 @@ const ejercicios = ref([
       'Empuja la cadera hacia atrás, no bajes doblando solo las rodillas',
       'Mantén la espalda recta, la curva viene de la cadera'
     ],
-    video: ''
+    video: 'x7W2BOKWWKs'
   },
   {
     nombre: 'Zancadas',
@@ -57,7 +57,7 @@ const ejercicios = ref([
       'Baja hasta que la rodilla trasera casi toque el piso',
       'Mantén el torso erguido durante todo el movimiento'
     ],
-    video: ''
+    video: 'Xcfs_3DMKlc'
   },
   {
     nombre: 'Extensión de cuádriceps',
@@ -70,7 +70,7 @@ const ejercicios = ref([
       'Sube sin impulso, contrae arriba un segundo',
       'Controla la bajada, no dejes caer el peso'
     ],
-    video: ''
+    video: 'MpEydcQ1oDw'
   }
 ])
 </script>

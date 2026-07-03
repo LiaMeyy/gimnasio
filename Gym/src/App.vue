@@ -1,6 +1,4 @@
 <template>
-  <!-- El q-layout + q-page-container SIEMPRE deben existir, -->
-  <!-- si no, q-page (usada en las vistas) no puede renderizar y queda en blanco -->
   <q-layout view="hHh lpR fFf" class="gym-layout">
 
     <template v-if="isAuthenticated()">
@@ -75,7 +73,6 @@ function handleLogout() {
 }
 </script>
 
-<!-- Estilo global: variables compartidas por toda la app (no scoped a propósito) -->
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap');
 

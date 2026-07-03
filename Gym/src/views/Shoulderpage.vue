@@ -18,7 +18,7 @@ const ejercicios = ref([
       'La barra sube en línea recta, casi rozando la cara',
       'No bloquees los codos con fuerza excesiva arriba'
     ],
-    video: ''
+    video: 'GELRUlUSxeI'
   },
   {
     nombre: 'Elevaciones laterales',
@@ -31,7 +31,7 @@ const ejercicios = ref([
       'Inclina levemente el codo hacia abajo, como si vertieras agua',
       'Evita usar impulso del cuerpo para levantar más peso'
     ],
-    video: ''
+    video: 'hgLpdwMtEEs'
   },
   {
     nombre: 'Elevaciones frontales',
@@ -44,7 +44,7 @@ const ejercicios = ref([
       'No balancees el torso hacia atrás para ayudarte',
       'Controla la bajada, no dejes caer el peso'
     ],
-    video: ''
+    video: 'ZI99ZWy6BjA'
   },
   {
     nombre: 'Pájaros',
@@ -57,7 +57,7 @@ const ejercicios = ref([
       'Junta los omóplatos al subir los brazos',
       'Usa un peso moderado, es un músculo pequeño y se fatiga rápido'
     ],
-    video: ''
+    video: 'OpHqGI6A1bY'
   },
   {
     nombre: 'Press Arnold',
@@ -70,7 +70,7 @@ const ejercicios = ref([
       'El movimiento es continuo, sin pausas bruscas',
       'Controla bien la rotación de muñeca, es la parte más técnica'
     ],
-    video: ''
+    video: '6zUrUsCa3KQ'
   }
 ])
 </script>

@@ -18,7 +18,7 @@ const ejercicios = ref([
       'Sube contrayendo fuerte, controla la bajada 2-3 segundos',
       'Mantén los codos fijos pegados al torso'
     ],
-    video: ''
+    video: 'PY9QylAMtyE&t=59s'
   },
   {
     nombre: 'Curl martillo',
@@ -31,7 +31,7 @@ const ejercicios = ref([
       'Alterna o trabaja ambos brazos a la vez según tu nivel',
       'No dejes que la muñeca se doble hacia atrás'
     ],
-    video: ''
+    video: 'RHdacbwKbTo'
   },
   {
     nombre: 'Press francés',
@@ -44,7 +44,7 @@ const ejercicios = ref([
       'Baja la barra hacia la frente con control, no hacia el cuello',
       'Evita abrir los codos hacia los lados'
     ],
-    video: ''
+    video: 'iXY0jm665GQ'
   },
   {
     nombre: 'Extensión en polea',
@@ -57,7 +57,7 @@ const ejercicios = ref([
       'Al final del movimiento separa un poco la cuerda para contraer más',
       'No uses el peso del cuerpo para empujar'
     ],
-    video: ''
+    video: 'OlZnLb3S8pk'
   },
   {
     nombre: 'Curl concentrado',
@@ -70,7 +70,7 @@ const ejercicios = ref([
       'Sube lento sin usar impulso del hombro',
       'Aprieta arriba 1 segundo antes de bajar'
     ],
-    video: ''
+    video: '8B0mY3gknoc'
   }
 ])
 </script>
