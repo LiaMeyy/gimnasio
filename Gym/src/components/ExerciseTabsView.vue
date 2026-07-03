@@ -355,4 +355,121 @@ const activeTab = ref(props.exercises[0]?.nombre)
   margin-top: 2px;
   flex-shrink: 0;
 }
+
+@media (max-width: 900px) {
+
+  .exercise-page {
+    padding: 24px 18px 40px;
+  }
+
+  .exercise-panel {
+    padding: 22px;
+  }
+
+  .panel-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .panel-media {
+    position: static;
+  }
+
+  .exercise-detail {
+    max-width: 100%;
+  }
+
+  .panel-meta {
+    gap: 14px;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .exercise-page {
+    padding: 16px 12px 30px;
+  }
+
+  .exercise-title {
+    font-size: 26px;
+  }
+
+  .exercise-subtitle {
+    margin-left: 0;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .exercise-header-top {
+    gap: 8px;
+  }
+
+  .exercise-header-icon {
+    font-size: 22px;
+  }
+
+  .exercise-panel {
+    padding: 16px;
+  }
+
+  .exercise-name {
+    font-size: 22px;
+  }
+
+  .exercise-detail {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .meta-item {
+    min-width: 100%;
+  }
+
+  .panel-meta {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .exercise-series {
+    font-size: 11px;
+    padding: 4px 10px;
+  }
+
+  .panel-tips {
+    padding: 14px;
+  }
+
+  .panel-tips li {
+    font-size: 13px;
+  }
+
+  .video-frame {
+    border-radius: 6px;
+  }
+
+}
+
+.exercise-tabs {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.exercise-tabs::-webkit-scrollbar {
+  height: 5px;
+}
+
+.exercise-tabs::-webkit-scrollbar-thumb {
+  background: var(--gym-red);
+  border-radius: 10px;
+}
+
+.exercise-tabs :deep(.q-tabs__content) {
+  flex-wrap: nowrap;
+}
+
+.exercise-tabs :deep(.q-tab) {
+  flex: 0 0 auto;
+}
 </style>

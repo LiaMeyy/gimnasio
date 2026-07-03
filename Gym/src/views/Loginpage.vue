@@ -269,4 +269,82 @@ function handleLogin() {
     transition: none;
   }
 }
+/* Tablets */
+@media (max-width: 768px) {
+  .login-card {
+    max-width: 90%;
+    padding: 32px 24px;
+  }
+
+  .login-title {
+    font-size: 36px;
+    letter-spacing: 3px;
+  }
+
+  .login-glow {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+  .login-page {
+    padding: 20px;
+  }
+
+  .login-card {
+    width: 100%;
+    margin: 0;
+    padding: 24px 18px;
+    border-radius: 12px;
+  }
+
+  .login-title {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+
+  .login-icon {
+    font-size: 28px;
+  }
+
+  .login-subtitle {
+    font-size: 12px;
+  }
+
+  .login-form {
+    gap: 14px;
+  }
+
+  .login-btn {
+    padding: 11px 0;
+    font-size: 14px;
+  }
+
+  .barbell-divider {
+    width: 110px;
+  }
+
+  .login-glow {
+    width: 340px;
+    height: 340px;
+    filter: blur(20px);
+  }
+}
+
+/* Celulares muy pequeños */
+@media (max-width: 320px) {
+  .login-card {
+    padding: 18px 14px;
+  }
+
+  .login-title {
+    font-size: 26px;
+  }
+
+  .login-subtitle {
+    font-size: 11px;
+  }
+}
 </style>

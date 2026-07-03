@@ -12,16 +12,13 @@ router.beforeEach((to) => {
   const requiresAuth = to.meta.requiresAuth !== false
 
   if (requiresAuth && !isAuthenticated()) {
-    // No logueado intentando entrar a una vista protegida -> a login
     return '/login'
   }
 
   if (to.path === '/login' && isAuthenticated()) {
-    // Ya logueado intentando volver a login -> a home
     return '/pecho'
   }
 
-  // Permite la navegación
   return true
 })
 
