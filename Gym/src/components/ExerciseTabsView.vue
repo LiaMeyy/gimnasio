@@ -188,7 +188,7 @@ const activeTab = ref(props.exercises[0]?.nombre)
 /* --- Layout de dos columnas: video | info --- */
 .panel-grid {
   display: grid;
-  grid-template-columns: minmax(280px, 460px) 1fr;
+  grid-template-columns: minmax(5px, 1fr) 1fr;
   gap: 36px;
   align-items: start;
 }
@@ -256,7 +256,7 @@ const activeTab = ref(props.exercises[0]?.nombre)
 
 .exercise-name {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 26px;
+  font-size: 40px;
   letter-spacing: 1px;
   color: #f2f2f2;
   margin: 0;
@@ -266,7 +266,7 @@ const activeTab = ref(props.exercises[0]?.nombre)
   display: inline-block;
   background: var(--gym-red);
   color: #ffffff;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.5px;
   padding: 4px 12px;
@@ -291,7 +291,7 @@ const activeTab = ref(props.exercises[0]?.nombre)
 
 .meta-item .q-icon {
   color: var(--gym-red);
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 2px;
 }
 
@@ -304,14 +304,14 @@ const activeTab = ref(props.exercises[0]?.nombre)
 }
 
 .meta-value {
-  font-size: 14px;
+  font-size: 20px;
   color: #e6e6e6;
 }
 
 .exercise-detail {
   color: #c4c4c6;
   line-height: 1.65;
-  font-size: 15px;
+  font-size: 18px;
   margin: 0 0 20px;
   max-width: 560px;
 }
@@ -323,7 +323,7 @@ const activeTab = ref(props.exercises[0]?.nombre)
 }
 
 .tips-title {
-  font-size: 11px;
+  font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 0.8px;
   color: var(--gym-red);
@@ -345,7 +345,7 @@ const activeTab = ref(props.exercises[0]?.nombre)
   align-items: flex-start;
   gap: 8px;
   color: #d4d4d6;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
